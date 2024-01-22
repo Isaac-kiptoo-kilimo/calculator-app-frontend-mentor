@@ -1,0 +1,92 @@
+
+
+:root{
+  --Strong-cyan: hsl(172, 67%, 45%);
+  --Very-dark-cyan: hsl(183, 100%, 15%);
+  --Dark-grayish-cyan: hsl(186, 14%, 43%);
+  --Grayish-cyan: hsl(184, 14%, 56%);
+  --Light-grayish-cyan: hsl(185, 41%, 84%);
+  --Very-light-grayish-cyan: hsl(189, 41%, 97%);
+  --White: hsl(0, 0%, 100%);
+  
+}
+
+.main-container{
+  width: 100%;
+}
+.main-container>h2{
+  text-align: center;
+  padding: 3rem;
+  color: var(--Very-dark-cyan);
+  letter-spacing: 0.3em;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+.main-card{
+  display: flex;
+  background-color: var(--White);
+  width: 70%;
+  min-height: 60vh;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+
+.left-card{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* background-color: green; */
+}
+
+.right-card{
+  flex: 1;
+  background-color: var(--Very-dark-cyan);
+  border-radius: 15px;
+  
+}
+
+.input-top,.input-bottom,.btn-perc{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.btn-perc{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-app{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.btn-app button{
+  width: 25%;
+  padding: 0.5rem 1rem;
+}
+
+.btn-five,.btn-ten,
+.btn-twenty-five,.btn-fifty{
+background-color: var(--Very-dark-cyan);
+color: var(--White);
+border-radius: 5px;
+}
+.btn-custom{
+background-color: var(--Very-light-grayish-cyan);
+color: var(----Very-dark-cyan);
+border-radius: 5px;
+border: none;
+outline: none;
+}
+
+.btn-fifteen{
+background-color: var(--Strong-cyan);
+border: none;
+outline: none;
+border-radius: 5px;
+}
+
